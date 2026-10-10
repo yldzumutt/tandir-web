@@ -9,7 +9,7 @@ export const translations = {
       followUs: "Instagram'da Takip Et"
     },
     hero: {
-      bookTable: "Masınızı Ayırtın",
+      bookTable: "Bize Ulaşın",
       viewMenu: "Menüyü İncele"
     },
     signature: {
@@ -37,13 +37,13 @@ export const translations = {
     },
     hours: {
       title: "Çalışma Saatleri",
-      weekdays: "Hafta İçi: 10:00 - 01:00",
-      weekends: "Hafta Sonu: 10:00 - 23:00"
+      weekdays: "Haftanın 7 Günü: 07:00 - 23:00",
+      weekends: ""
     },
     modal: {
       menuTitle: "Lezzet Repertuvarı",
       menuSubtitle: "Şehrin Gurme Mutfağı",
-      resTitle: "Masınızı Ayırtın",
+      resTitle: "Bize Ulaşın",
       resDesc: "Özel davetleriniz ve akşam yemekleriniz için bizimle iletişime geçin.",
       callNow: "HEMEN ARA",
       whatsapp: "WHATSAPP'TAN YAZ",
@@ -79,48 +79,7 @@ export const translations = {
       { id: 5, name: "Fırın Sütlaç", desc: "Kıvamı tam yerinde, üzeri nar gibi kızarmış", price: "200 ₺", img: "tabak5.webp" },
       { id: 6, name: "Serpme Kahvaltı", desc: "Güne yöresel ve taze lezzetlerle başlayın", price: "1.400 ₺", img: "tabak6.webp" }
     ],
-    menuData: [
-      {
-        category: "Kahvaltı & Başlangıçlar",
-        items: [
-          { name: "Tandır Serpme Kahvaltı (2 Kişilik)", price: "1.400 ₺", desc: "Doğal ve taze yöresel kahvaltı şöleni." },
-          { name: "Tandır Serpme Kahvaltı (3 Kişilik)", price: "2.000 ₺", desc: "Köy lezzetleri ve geleneksel sunum." },
-          { name: "Pekmezli Yumurta (Gerçüş)", price: "Şefe Danışın", desc: "Tatlı ve tuzlu mükemmel uyum." },
-          { name: "Yumurtalı Bastık Kavurma", price: "Şefe Danışın", desc: "Bastık ekmeği üzerinde zengin bir lezzet." },
-          { name: "Geleneksel İçli Köfte (Adet)", price: "75 ₺", desc: "Haşlama veya kızartma." },
-          { name: "Günün Çorbası", price: "Şefe Danışın", desc: "Süzme Mercimek veya Ezogelin." }
-        ]
-      },
-      {
-        category: "Izgaralar & Kebaplar",
-        items: [
-          { name: "Adana Kebap", price: "525 ₺", desc: "Özel baharatlarla harmanlanmış zırh kıyması." },
-          { name: "Urfa Kebap", price: "525 ₺", desc: "Acısız, sade ve geleneksel lezzet." },
-          { name: "Patlıcanlı Kebap", price: "700 ₺", desc: "Közlenmiş patlıcan ile kıymanın eşsiz uyumu." },
-          { name: "Domatesli Kebap", price: "650 ₺", desc: "Taş fırında domates dilimleriyle mühürlenmiş." },
-          { name: "Tavuk Şiş", price: "450 ₺", desc: "Özel marinasyonlu körpe tavuk göğsü." },
-          { name: "Et Pirzola", price: "750 ₺", desc: "Odun ateşinde mühürlenmiş kuzu kalemleri." },
-          { name: "Karışık Izgara (Başlangıç)", price: "1.600 ₺", desc: "Tüm ızgara çeşitlerinden oluşan şefin seçkisi." },
-          { name: "Göşte Biraşti", price: "900 ₺", desc: "Kuzu kuşbaşı ve pirzolaların kemiklerinde sunumu." }
-        ]
-      },
-      {
-        category: "Fırın Spesiyalleri",
-        items: [
-          { name: "Çömlek Güveç", price: "500 ₺", desc: "Özel tandırımızda ağır ağır pişen kuzu etleri ve doğal sebzeler." },
-          { name: "Fırında Sarma Beyti", price: "800 ₺", desc: "İncecik lavaşa sarılı özel sos ve tereyağı eşliğinde." },
-          { name: "Kuzu Testi Fırın (Özel)", price: "12.000 ₺", desc: "Ateş şovuyla sunulan eşsiz ziyafet." }
-        ]
-      },
-      {
-        category: "Tatlılar",
-        items: [
-          { name: "Fırın Sütlaç", price: "200 ₺", desc: "Kıvamı tam yerinde, üzeri kızarmış enfes lezzet." },
-          { name: "Kireçli Kabak Tatlısı", price: "150 ₺", desc: "Kireçle bekletilerek hazırlanan çıtır Osmanlı mirası." },
-          { name: "Hatay Usulü Künefe", price: "Şefe Danışın", desc: "Odun ateşinde sıcak şerbetli tel kadayıf." }
-        ]
-      }
-    ]
+    menuData: []
   },
   en: {
     nav: {
@@ -132,7 +91,7 @@ export const translations = {
       followUs: "Follow Us on Instagram"
     },
     hero: {
-      bookTable: "Book a Table",
+      bookTable: "Contact Us",
       viewMenu: "View Menu"
     },
     signature: {
@@ -160,13 +119,13 @@ export const translations = {
     },
     hours: {
       title: "Working Hours",
-      weekdays: "Weekdays: 10:00 - 01:00",
-      weekends: "Weekends: 10:00 - 23:00"
+      weekdays: "7 Days a Week: 07:00 - 23:00",
+      weekends: ""
     },    
     modal: {
       menuTitle: "Flavor Repertoire",
       menuSubtitle: "Gourmet Cuisine of the City",
-      resTitle: "Book Your Table",
+      resTitle: "Contact Us",
       resDesc: "Contact us for your special events and dinners.",
       callNow: "CALL NOW",
       whatsapp: "MESSAGE VIA WHATSAPP",
@@ -202,47 +161,6 @@ export const translations = {
       { id: 5, name: "Baked Rice Pudding", desc: "Perfect consistency, oven-baked top", price: "200 ₺", img: "tabak5.webp" },
       { id: 6, name: "Breakfast Spread", desc: "Start the day with regional fresh flavors", price: "1.400 ₺", img: "tabak6.webp" }
     ],
-    menuData: [
-      {
-        category: "Breakfast & Starters",
-        items: [
-          { name: "Tandır Breakfast Spread (For 2)", price: "1.400 ₺", desc: "Natural and fresh regional breakfast feast." },
-          { name: "Tandır Breakfast Spread (For 3)", price: "2.000 ₺", desc: "Village flavors and traditional presentation." },
-          { name: "Eggs with Molasses (Gerçüş)", price: "Ask the Chef", desc: "Perfect harmony of sweet and salty." },
-          { name: "Roasted Meat with Eggs on Bastık", price: "Ask the Chef", desc: "Rich flavor on traditional fruit leather bread." },
-          { name: "Traditional Stuffed Meatballs (Each)", price: "75 ₺", desc: "Boiled or fried options." },
-          { name: "Soup of the Day", price: "Ask the Chef", desc: "Strained Lentil or Ezogelin." }
-        ]
-      },
-      {
-        category: "Grills & Kebabs",
-        items: [
-          { name: "Adana Kebab", price: "525 ₺", desc: "Hand-minced meat blended with special spices." },
-          { name: "Urfa Kebab", price: "525 ₺", desc: "Non-spicy, plain, and traditional flavor." },
-          { name: "Eggplant Kebab", price: "700 ₺", desc: "Unique harmony of roasted eggplant and minced meat." },
-          { name: "Tomato Kebab", price: "650 ₺", desc: "Sealed with tomato slices in a stone oven."},
-          { name: "Chicken Shish", price: "450 ₺", desc: "Specially marinated tender chicken breast." },
-          { name: "Lamb Chops", price: "750 ₺", desc: "Lamb racks sealed over a wood fire." },
-          { name: "Mixed Grill (Starter)", price: "1.600 ₺", desc: "Chef's selection of all grill varieties." },
-          { name: "Göşte Biraşti", price: "900 ₺", desc: "Lamb cubes and chops presented on the bone." }
-        ]
-      },
-      {
-        category: "Oven Specialties",
-        items: [
-          { name: "Clay Pot Stew", price: "500 ₺", desc: "Slow-cooked lamb meat and natural vegetables in a clay pot." },
-          { name: "Baked Sarma Beyti", price: "800 ₺", desc: "Wrapped in thin lavash with special sauce and butter." },
-          { name: "Lamb Testi Kebab (Special)", price: "12.000 ₺", desc: "A unique feast presented with a fire show." }
-        ]
-      },
-      {
-        category: "Desserts",
-        items: [
-          { name: "Baked Rice Pudding", price: "200 ₺", desc: "Perfect consistency, deliciously browned top." },
-          { name: "Crispy Pumpkin Dessert", price: "150 ₺", desc: "Crispy Ottoman heritage prepared by soaking in lime." },
-          { name: "Hatay Style Künefe", price: "Ask the Chef", desc: "Hot syrupy wire kadayıf cooked over a wood fire." }
-        ]
-      }
-    ]
+    menuData: []
   }
 };
